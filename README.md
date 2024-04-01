@@ -16,7 +16,16 @@ This repository contains benchmarks for two kernels implemented in x86-64 assemb
 
 ### Average Execution Time
 
-The average execution time for each kernel is calculated as follows:
-
 - For x86-64 Assembly:
+  - Average Execution Time (Assembly) = (Σ Execution Time of 30 Runs) / 30
+
+- For C Language:
+  - Average Execution Time (C) = (Σ Execution Time of 30 Runs) / 30
+
+### Insights
+
+- The x86-64 Assembly kernel demonstrates consistently lower execution times across multiple runs compared to the C implementation.
+- Variability in execution time across runs for each kernel can indicate factors such as system load, memory/cache behavior, or compiler optimizations.
+- Further analysis may involve profiling to identify specific areas for optimization in the C implementation or exploring optimizations in the assembly code.
+
 
