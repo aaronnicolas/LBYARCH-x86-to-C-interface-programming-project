@@ -4,14 +4,18 @@
 
 This repository contains benchmarks for two kernels implemented in x86-64 assembly and C language, each run 30 times. Below is a comparative analysis of the execution times and performance of these kernels.
 
+The program only works in Debug Mode
+
 ## Execution Time
 Time process for vector size n = {2<sup>20</sup>, 2<sup>24</sup>, and  2<sup>27</sup>}. The machine can only support up until 2<sup>27</sup>.
-Build Mode
+
+Debug Mode
 | Kernel          | Language | 2^20 Average (ms)     | 2^24 Average (ms)      | 2^27 Average (ms)    |
 |-----------------|----------|-----------------------|------------------------|----------------------|
-| x86-64 Assembly | Assembly | 3.838503 ms           | 98                     | 101                  | 
-| C Version       | C        | 3.316153 ms           | 115                    | 125                  |
+| x86-64 Assembly | Assembly | 3.838503 ms           | 63.158463 ms           | 590.348693 ms        | 
+| C Version       | C        | 3.316153 ms           | 58.418847 ms           | 485.967457 ms        |
 
+!Release Mode is not working!
 
 ## Analysis
 
