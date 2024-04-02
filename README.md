@@ -31,7 +31,7 @@ Debug Mode
 
 ### Insights
 
-- In lower vector sizes, the x86-64 Assembly kernel demonstrates consistently lower execution times across multiple runs compared to the C implementation.
+- In lower vector sizes, the x86-64 Assembly kernel demonstrates mostly lower execution times across multiple runs compared to the C implementation.
 - Meanwhile, in higher vector sizes, the x86-64 Assembly kernel demonstrates consistently higher execution times across multiple runs compared to the C implementation.
 - Variability in execution time across runs for each kernel can indicate factors such as system load, memory/cache behavior, or compiler optimizations.
 - Further analysis may involve profiling to identify specific areas for optimization in the C implementation and especially exploring optimizations in the assembly code.
