@@ -6,7 +6,7 @@ This repository contains benchmarks for two kernels implemented in x86-64 assemb
 
 The program only works in Debug Mode
 
-## Execution Time
+## IA. Comparative Execution Time
 Time process for vector size n = {2<sup>20</sup>, 2<sup>24</sup>, and  2<sup>27</sup>}. The machine can only support up until 2<sup>27</sup>.
 
 The Kernel portion was looped 30 times where the average execution time for each vector size is presented in the table below.
@@ -19,7 +19,7 @@ Debug Mode
 
 !Release Mode is not working!
 
-## Analysis
+## IB. Short Analysis
 
 ### Average Execution Time
 
