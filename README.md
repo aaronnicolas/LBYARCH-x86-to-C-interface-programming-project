@@ -33,4 +33,6 @@ Debug Mode
 - Variability in execution time across runs for each kernel can indicate factors such as system load, memory/cache behavior, or compiler optimizations.
 - Further analysis may involve profiling to identify specific areas for optimization in the C implementation or exploring optimizations in the assembly code.
 
+## II and III Take a screenshot of the program output with the correctness check C and x86-64.
+![Correctness Check](screenshots/Correctness Check of x86-64 and C.jpg)
 
